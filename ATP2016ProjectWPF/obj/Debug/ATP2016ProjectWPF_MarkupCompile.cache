@@ -1,0 +1,20 @@
+﻿ATP2016ProjectWPF
+
+
+winexe
+C#
+.cs
+D:\Projects To Show\Maze\ATP2016ProjectWPF\obj\Debug\
+ATP2016ProjectWPF
+none
+false
+DEBUG;TRACE
+D:\Projects To Show\Maze\ATP2016ProjectWPF\App.xaml
+13-1542403340
+1708573285
+30-1507759240
+14-2043296963
+View\Controls\Cat.xaml;View\Controls\Exit.xaml;View\Controls\MazeDisplayer.xaml;View\Controls\Path.xaml;View\Controls\Wall.xaml;View\DisplayDetails.xaml;View\DisplaySolDetails.xaml;View\LoadMazeDetails.xaml;View\MainWindow.xaml;View\MazeDetails.xaml;View\SaveMazeDetails.xaml;View\SolutionDetails.xaml;View\Video.xaml;
+
+False
+

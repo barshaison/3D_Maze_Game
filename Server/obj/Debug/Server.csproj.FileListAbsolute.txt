@@ -1,0 +1,8 @@
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\ATP2016ProjectWPF\Server\bin\Debug\Server.exe.config
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\ATP2016ProjectWPF\Server\bin\Debug\Server.exe
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\ATP2016ProjectWPF\Server\bin\Debug\Server.pdb
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\ATP2016ProjectWPF\Server\bin\Debug\ATP2016Library.dll
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\ATP2016ProjectWPF\Server\bin\Debug\ATP2016Library.pdb
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\ATP2016ProjectWPF\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\ATP2016ProjectWPF\Server\obj\Debug\Server.exe
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\ATP2016ProjectWPF\Server\obj\Debug\Server.pdb

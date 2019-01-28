@@ -1,0 +1,10 @@
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\ATP2016ProjectWPF\ATP2016ProjectWPF.UnitTesting\bin\Debug\ATP2016ProjectWPF.UnitTesting.dll
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\ATP2016ProjectWPF\ATP2016ProjectWPF.UnitTesting\bin\Debug\ATP2016ProjectWPF.UnitTesting.pdb
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\ATP2016ProjectWPF\ATP2016ProjectWPF.UnitTesting\bin\Debug\ATP2016Library.dll
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\ATP2016ProjectWPF\ATP2016ProjectWPF.UnitTesting\bin\Debug\ATP2016ProjectWPF.exe
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\ATP2016ProjectWPF\ATP2016ProjectWPF.UnitTesting\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\ATP2016ProjectWPF\ATP2016ProjectWPF.UnitTesting\bin\Debug\ATP2016ProjectWPF.pdb
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\ATP2016ProjectWPF\ATP2016ProjectWPF.UnitTesting\bin\Debug\ATP2016Library.pdb
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\ATP2016ProjectWPF\ATP2016ProjectWPF.UnitTesting\obj\Debug\ATP2016ProjectWPF.UnitTesting.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\ATP2016ProjectWPF\ATP2016ProjectWPF.UnitTesting\obj\Debug\ATP2016ProjectWPF.UnitTesting.dll
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\ATP2016ProjectWPF\ATP2016ProjectWPF.UnitTesting\obj\Debug\ATP2016ProjectWPF.UnitTesting.pdb

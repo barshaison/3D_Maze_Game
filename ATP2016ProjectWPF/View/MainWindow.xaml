@@ -1,0 +1,68 @@
+﻿<Window x:Class="ATP2016ProjectWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="clr-namespace:ATP2016ProjectWPF.View.Controls"
+        
+        mc:Ignorable="d"
+        Title="MainWindow" Height="660" Width="660"
+        KeyDown="Window_KeyDown" Closing="btn_X_click">
+    <Grid ShowGridLines="False">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Border  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BorderThickness="3" CornerRadius="3" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}">
+            <Menu Name="menu_name" Focusable="False" >
+                <MenuItem Focusable="False" Header="File">
+                    <MenuItem Header="Save Maze" Click="btn_saveMaze_click" />
+                    <MenuItem Header="Load Maze"  Click="btn_loadMaze_click"/>
+                    <MenuItem Header="Exit" Click="btn_exit_click" />
+                </MenuItem>
+                <MenuItem Focusable="False" Header="Options">
+                    <MenuItem Header="Properties" Click="btn_prop_click"/>
+                </MenuItem>
+                <MenuItem Focusable="False" Header="Help">
+                    <MenuItem Header="Controls" Click="controls_click" />
+                    <MenuItem Header="Markings" Click="markings_click" />
+                    <MenuItem Header="Game Story" Click="game_click" />
+                </MenuItem>
+                <MenuItem Focusable="False" Header="About" Click="btn_about_click">
+                </MenuItem>
+            </Menu>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="0" BorderThickness="3" CornerRadius="3" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}">
+            <StackPanel Focusable="False" Name="buttons_name" >
+                <Button Focusable="False" Name="btn_GenerateMaze"
+                            Click="btn_GenerateMaze_Click"
+                            Content="Generate Maze" />
+                <Button Name="displayMaze_name" Focusable="False" Content="Display Maze" Click="btn_display_click" />
+                <Button Name="solveMaze_name" Focusable="False" Click="btn_SolveMaze" Content="Solve Maze" />
+                <Button Name="displaySol_name" Focusable="False" Content="Display Solution" Click="btn_displaySol_click" />
+                <TextBlock Name="curr_maze"  Text=" Current Maze:"/>
+                <TextBlock Name="CurrMaze"/>
+                <TextBlock Name="curr_floor"  Text=" Current Floor:"/>
+                <TextBlock Name="CurrFloor"/>
+                <TextBlock Name="up_floor"  Text="   Go Up:"/>
+                <TextBlock Name="upFloor"   Text="   available"/>
+                <TextBlock Name="down_floor"  Text="   Go Down:"/>
+                <TextBlock Name="downFloor"   Text="   available"/>
+
+
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="1" BorderThickness="3" CornerRadius="3" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}">
+            
+                <Grid Name="cnvs_main" >
+
+                </Grid>
+        </Border>
+    </Grid>
+
+
+</Window>

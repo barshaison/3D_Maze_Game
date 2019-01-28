@@ -1,0 +1,92 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Shapes;
+
+namespace ATP2016ProjectWPF.View
+{
+    /// <summary>
+    /// Interaction logic for SaveMazeDetails.xaml
+    /// </summary>
+    public partial class SaveMazeDetails : Window
+    {
+        /// <summary>
+        /// maze name
+        /// </summary>
+       private string m_mazeName;
+        /// <summary>
+        /// path
+        /// </summary>
+       private string m_path;
+        /// <summary>
+        /// initialize the window
+        /// </summary>
+        public SaveMazeDetails()
+        {
+            InitializeComponent();
+        }
+
+        /// <summary>
+        /// maze name property
+        /// </summary>
+        public string MazeName
+        {
+            get
+            {
+                return m_mazeName;
+            }
+
+            set
+            {
+                m_mazeName = value;
+            }
+        }
+        /// <summary>
+        /// path property
+        /// </summary>
+        public string Path
+        {
+            get
+            {
+                return m_path;
+            }
+
+            set
+            {
+                m_path = value;
+            }
+        }
+        /// <summary>
+        /// cancels maze save
+        /// </summary>
+        /// <param name="sender">sender</param>
+        /// <param name="e">event args</param>
+        private void btn_cancel_Click(object sender, RoutedEventArgs e)
+        {
+            m_mazeName = "$";
+            m_path = "$";
+            this.Close();
+        }
+
+        /// <summary>
+        /// saves maze
+        /// </summary>
+        /// <param name="sender">sender</param>
+        /// <param name="e">evenr args</param>
+        private void btn_save_Click(object sender, RoutedEventArgs e)
+        {
+            m_mazeName = txtbx_mazeName.Text;
+            m_path = txtbx_path.Text;
+            this.Close();
+        }
+    }
+}
